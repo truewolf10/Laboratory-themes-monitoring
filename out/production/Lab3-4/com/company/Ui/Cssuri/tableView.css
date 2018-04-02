@@ -1,0 +1,55 @@
+.table-view {
+    -fx-border: 4px;
+    -fx-border-style: solid;
+    -fx-border-color: #040355;
+    -fx-background-color: #060555;
+    -fx-width: 400px;
+    -fx-text-align: center;
+    -fx-border-collapse: collapse;
+}
+
+.table-view .table-cell, .table-view .column-header {
+    -fx-border: 1px;
+    -fx-border-style:solid;
+    -fx-border-color: #555555;
+    -fx-padding: 10px 10px;
+}
+
+.table-view .tbody td {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-color: #FFFFFF;
+}
+
+.table thead {
+    -fx-background: #398AA4;
+    -fx-border-bottom: 10px;
+    -fx-border-style:solid;
+    -fx-border-color: #398AA4;
+}
+
+.table thead th {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-color: #FFFFFF;
+    -fx-text-align: left;
+    -fx-border-left: 2px;
+    -fx-border-style: solid;
+    -fx-border-color: #398AA4;
+}
+
+.table tfoot td {
+    -fx-font-size: 13px;
+}
+
+.table tfoot .links {
+    -fx-text-align: right;
+}
+
+.table tfoot .links a {
+    -fx-display: inline-block;
+    -fx-background: #FFFFFF;
+    -fx-color: #398AA4;
+    -fx-padding: 2px 8px;
+    -fx-border-radius: 5px;
+}
